@@ -1,0 +1,5 @@
+,Log tuition,SAT (average),Family income,Log earnings
+Log tuition,1.0,0.394,0.577,0.545
+SAT (average),0.394,1.0,0.521,0.556
+Family income,0.577,0.521,1.0,0.455
+Log earnings,0.545,0.556,0.455,1.0

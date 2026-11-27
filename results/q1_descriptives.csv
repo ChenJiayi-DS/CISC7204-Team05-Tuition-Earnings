@@ -1,0 +1,4 @@
+inst_type,n,tuition_real_median_IQR,earnings_median_IQR,SAT_reported
+Public,520,"10,168 (8,533-13,293)","66,580 (59,739-75,772)",473
+Private nonprofit,953,"37,461 (29,315-47,302)","65,273 (56,131-76,492)",758
+Private for-profit,69,"22,061 (19,360-27,084)","64,627 (53,773-72,130)",8

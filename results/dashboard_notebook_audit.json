@@ -1,0 +1,64 @@
+{
+  "project_root": "C:\\Users\\dinow\\Desktop\\Team05_Analysis_V2\\Team05_Analysis_V2",
+  "checks": "passed",
+  "checked_at_local": "2026-11-12",
+  "groups": [
+    "Correct root; reference V21, proposal and raw files unchanged",
+    "Notebook schema, full execution, four equation sections and nine embedded images",
+    "Sample counts, keys, CPI weights, income/RPP conversions and linked tuition",
+    "Independent Q1 main/all sensitivity and Q2/Q3 refits; slopes, CI, p-values and units",
+    "Q4 common-field coverage; eight HC1 models, 16 slopes and eight interaction tests",
+    "Overview: 848 filter combinations including all states/type subsets, nested/empty samples",
+    "Q3 maps: identical observations, per-sector thresholds, medians and shared colour scale",
+    "Q4 16 panels/eight selectors match predictions; invalid-field guard",
+    "Coefficient values/hover bounds, shared guide and Dash HTTP endpoints"
+  ],
+  "overview_filter_cases": 848,
+  "notebook_errors": 0,
+  "elapsed_seconds": 11.46,
+  "visual_checks": [
+    "All dashboard tabs loaded; empty and nested filters tested in browser",
+    "Q4 hover confirmed estimate, 95% CI and N",
+    "Public/private maps rendered and field selector updated both panels",
+    "Four progressive formulas rendered by MathJax with no errors or width overflow",
+    "Nine static figures and four live coefficient chart images visually inspected"
+  ],
+  "fixes": [
+    "Clarified static mapped-state counts versus DC-inclusive coverage counts",
+    "Wrapped Figure 5 y-axis title",
+    "Clarified log-model statement excludes Q1 level-scale sensitivity",
+    "Used USD in Q1 interpretation to prevent accidental Markdown math formatting"
+  ],
+  "model_results_changed": false,
+  "reference_files_changed": false,
+  "figure_style_check": {
+    "title_font_size_pt": 13,
+    "title_weight": "bold",
+    "title_position": [
+      0.01,
+      0.98
+    ],
+    "title_alignment": "left/top",
+    "main_font_size_pt": 11,
+    "tick_font_size_pt": 10.5,
+    "estimate_n_font_size_pt": 11,
+    "panel_title_font_size_pt": 10,
+    "footer_font_size_pt": 9,
+    "coefficient_canvas_width_inches": 10,
+    "notebook_errors": 0,
+    "unchanged_csv_tables": 25,
+    "checks": "passed",
+    "scope": "Notebook and exported static figures; visual inspection of Figures 1-8 passed."
+  },
+  "dashboard_typography_check": {
+    "chart_title_px": 19,
+    "chart_font_px": 15,
+    "tick_font_px": 14,
+    "body_px": 16,
+    "note_px": 15,
+    "panel_title_px": 13,
+    "unchanged_chart_sets": 13,
+    "http_checks": "passed",
+    "browser_checks": "Font sizes and no horizontal overflow verified; title and legend bounds separate at 1440 px viewport. Screenshot capture timed out."
+  }
+}

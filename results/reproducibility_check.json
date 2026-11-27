@@ -1,0 +1,32 @@
+{
+  "python": "3.13.9",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "statsmodels": "0.14.5",
+    "matplotlib": "3.10.6",
+    "openpyxl": "3.1.5"
+  },
+  "institution_rows": 2098,
+  "main_sample": 1473,
+  "nested_sample": 1230,
+  "field_rows": 22614,
+  "field_models": 8,
+  "field_sector_slopes": 16,
+  "q4_formula": "log_earn ~ log_tuition + private + log_tuition:private",
+  "q4_covariance": "HC1",
+  "q4_min_institutions_per_sector": 30,
+  "q4_common_top8": [
+    "42.01",
+    "52.02",
+    "26.01",
+    "51.38",
+    "52.03",
+    "13.12",
+    "09.01",
+    "23.01"
+  ],
+  "q4_slope_difference_tests": 8,
+  "checks": "passed"
+}
