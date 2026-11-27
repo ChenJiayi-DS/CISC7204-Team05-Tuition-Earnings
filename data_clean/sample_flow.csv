@@ -1,0 +1,9 @@
+Step,Total,Public,Private nonprofit,Private for-profit,Proposal Table 4
+All institutions in the 2012-13 file,7862,2082,1991,3789,
+Predominantly bachelor's (PREDDEG = 3) in 2012-13,2145,592,1256,297,
+Located in the 50 states or DC,2098,578,1225,295,"2,098 (578 / 1,225 / 295)"
+Reports seven-year earnings (2022-23 file),1626,543,998,85,"1,626 (543 / 998 / 85)"
+All five years of in-state tuition available,1542,520,953,69,"1,542 (520 / 953 / 69)"
+Positive tuition and earnings (needed for log models),1542,520,953,69,
+"Public and private nonprofit (main analysis, wider sample)",1473,520,953,0,"1,473 (520 / 953 / -)"
+Both SAT values and family income available (nested-model sample),1230,473,757,0,"1,230 (473 / 757 / -)"

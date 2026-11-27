@@ -1,0 +1,22 @@
+file,variable,origin,definition
+institution_clean.csv,"UNITID, INSTNM, STABBR, CONTROL, PREDDEG",Original (2012-13 file),"Identifier, name, state, control and predominant degree"
+institution_clean.csv,inst_type,Constructed,"CONTROL 1 = Public, 2 = Private nonprofit, 3 = Private for-profit"
+institution_clean.csv,tuition_in_YYYY_YY / tuition_out_YYYY_YY,Original,"TUITIONFEE_IN / TUITIONFEE_OUT by academic year, nominal dollars"
+institution_clean.csv,tuition_in_years / tuition_out_years,Constructed,Number of the five academic years with a value
+institution_clean.csv,tuition_in_nominal / tuition_out_nominal,Constructed,"(T11 + 2T12 + 2T13 + 2T14 + T15) / 8, nominal dollars; missing unless all five years exist"
+institution_clean.csv,tuition_in_real / tuition_out_real,Constructed,Same weights after converting each year to 2024 dollars with CPI-U (start calendar year)
+institution_clean.csv,"sat_2011, sat_2012, sat_avg",Original / constructed,SAT_AVG Fall 2011 and Fall 2012; sat_avg requires both
+institution_clean.csv,faminc_nominal / faminc_real,Original / constructed,MD_FAMINC (2012-13 file); real = nominal x CPI-U 2024 / mean CPI-U 2011-2012
+institution_clean.csv,earn_7yr,Original (2022-23 file),"MD_EARN_WNE_7YR, 2024 dollars, pooled AY2014-15 and AY2015-16 completers"
+institution_clean.csv,rpp_avg,Constructed (BEA),Mean of 2022 and 2023 all-items RPP for the institution's state (US = 100)
+institution_clean.csv,earn_rpp_adjusted,Constructed,earn_7yr x 100 / rpp_avg (approximate purchasing power)
+institution_clean.csv,in_q1_sample / in_main_sample / in_nested_sample,Constructed,"Sample flags: Q1 (all three types), main (public + nonprofit), nested (SAT and income complete)"
+institution_clean.csv,exclusion_reason,Constructed,Why an institution is outside the Q1 sample
+field_clean.csv,"cip4, field_name",Original (recoded),Four-digit CIP code and description
+field_clean.csv,"earn_7yr_field, earn_count_field",Original,"EARN_MDN_7YR and EARN_COUNT_WNE_7YR for bachelor's programs, 2024 dollars"
+field_clean.csv,"tuition_in_real, inst_type",Linked,"Institution tuition and type, used as a proxy for program tuition"
+field_clean.csv,field_n_institutions,Constructed,Institutions reporting the field across both types
+field_clean.csv,field_n_institutions_in_type,Constructed,Reporting institutions within the field and institution type
+field_clean.csv,"eligible_common_field, common_field_rank, top8_field",Constructed,Require at least 30 reporting institutions in each sector; rank eligible fields by combined coverage descending (ties by CIP code); both sectors use the same top eight
+state_rpp.csv,"rpp_2022, rpp_2023, rpp_avg",Original / constructed,BEA all-items RPP by state
+cpi_annual.csv,cpi_u_annual,Original,"BLS CPI-U annual average, series CUUR0000SA0"

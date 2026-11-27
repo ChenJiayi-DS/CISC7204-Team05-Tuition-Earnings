@@ -1,0 +1,11 @@
+file,provider,url,role,size_mb,local_file_date,download_date,source_release
+MERGED2011_12_PP.csv,U.S. Department of Education,https://collegescorecard.ed.gov/data/,Tuition 2011-12; SAT Fall 2011,100.8,2026-10-29,Unknown - not documented,Unknown - verify original download
+MERGED2012_13_PP.csv,U.S. Department of Education,https://collegescorecard.ed.gov/data/,"Tuition 2012-13; SAT Fall 2012; MD_FAMINC; PREDDEG, CONTROL, STABBR",102.6,2026-10-29,Unknown - not documented,Unknown - verify original download
+MERGED2013_14_PP.csv,U.S. Department of Education,https://collegescorecard.ed.gov/data/,Tuition 2013-14,104.2,2026-10-30,Unknown - not documented,Unknown - verify original download
+MERGED2014_15_PP.csv,U.S. Department of Education,https://collegescorecard.ed.gov/data/,Tuition 2014-15,102.3,2026-10-30,Unknown - not documented,Unknown - verify original download
+MERGED2015_16_PP.csv,U.S. Department of Education,https://collegescorecard.ed.gov/data/,Tuition 2015-16,100.1,2026-10-30,Unknown - not documented,Unknown - verify original download
+MERGED2022_23_PP.csv,U.S. Department of Education,https://collegescorecard.ed.gov/data/,MD_EARN_WNE_7YR (Q1-Q3 outcome),84.5,2026-10-29,Unknown - not documented,Unknown - verify original download
+FieldOfStudyData2122_2223_PP.csv,U.S. Department of Education,https://collegescorecard.ed.gov/data/,EARN_MDN_7YR by field (Q4 outcome),219.0,2026-10-29,Unknown - not documented,Unknown - verify original download
+SARPP_STATE_2008_2024.csv,U.S. Bureau of Economic Analysis,https://www.bea.gov/data/prices-inflation/regional-price-parities-state-and-metro-area,All-items state RPP 2022-2023 (Q3),0.1,2026-10-30,Unknown - not documented,Unknown - verify original download
+CPI_2011-2024(1).xlsx,U.S. Bureau of Labor Statistics,https://www.bls.gov/cpi/data.htm,CPI-U annual averages (2024 dollars),0.0,2026-10-31,Unknown - not documented,Unknown - verify original download
+us-states.json,State boundary GeoJSON,Project file,State maps (Q3 figure and dashboard),0.1,2026-11-01,Unknown - not documented,Unknown - verify original download
